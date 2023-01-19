@@ -2,10 +2,21 @@ First thing loaded in the browser is the window, the properties of that window a
 Document is an object inside the window object and the document object is used for adjustments/modification inside the document.
 
  
-Document	Window	   
-The document loads only after the window.	The window loads first.	   
-It’s an object of window	It’ an object of browser	   
-It is the inner content of the webpage.	It’s the outer frame of the browser while using any webpage	   
-We cannot access windows objects properties inside the document	We can access document object properties inside the window.	   
-The properties related to document are stored in the document object.	The properties related to window are stored in the window object.	   
-It cannot control the window	It can control the document	 
+Document	
+                                                                  
+The document loads only after the window.	                           	   
+Itâ€™s an object of window	                                          
+It is the inner content of the webpage.	                           	   
+We cannot access windows objects properties inside the document	   	   
+The properties related to document are stored in document object.    	   
+It cannot control the window	                                      	 
+
+
+Window
+
+The window loads first.	
+Itâ€™ an object of browser	
+Itâ€™s the outer frame of the browser while using any webpage
+We can access document object properties inside the window.
+The properties related to window are stored in the window object.
+It can control the document
